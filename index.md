@@ -12,5 +12,5 @@ Data Analytics, BI, Machine Learning, AI agents
 - [AI agent: RAG prototype](projects/ai-agent)
 
 ## Contact
-- LinkedIn: (https://www.linkedin.com/in/nikolai-s-41084119b/)
-- Email: (nik91sh@gmail.com) test
+- LinkedIn: <https://www.linkedin.com/in/nikolai-s-41084119b/>
+- Email: <mailto:nik91sh@gmail.com>
