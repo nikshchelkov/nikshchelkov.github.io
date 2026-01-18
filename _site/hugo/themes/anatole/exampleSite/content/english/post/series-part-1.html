@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Series Part 1 | Nikolai Shchelkov</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Series Part 1" />
+<meta name="author" content="Hugo Authors" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A brief guide to how to setup series part 1" />
+<meta property="og:description" content="A brief guide to how to setup series part 1" />
+<link rel="canonical" href="http://localhost:4000/hugo/themes/anatole/exampleSite/content/english/post/series-part-1.html" />
+<meta property="og:url" content="http://localhost:4000/hugo/themes/anatole/exampleSite/content/english/post/series-part-1.html" />
+<meta property="og:site_name" content="Nikolai Shchelkov" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-14T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Series Part 1" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Hugo Authors"},"dateModified":"2021-08-14T00:00:00-06:00","datePublished":"2021-08-14T00:00:00-06:00","description":"A brief guide to how to setup series part 1","headline":"Series Part 1","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/hugo/themes/anatole/exampleSite/content/english/post/series-part-1.html"},"url":"http://localhost:4000/hugo/themes/anatole/exampleSite/content/english/post/series-part-1.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=764f679b0e746524984cdcdc89d52788e8d2a595">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">Nikolai Shchelkov</a></h1>
+
+        
+
+        <p>Data Analytics | Power BI | ML | AI agents</p>
+
+        
+        <p class="view"><a href="https://github.com/nikshchelkov/nikshchelkov.github.io">View the Project on GitHub <small>nikshchelkov/nikshchelkov.github.io</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <p>In this first part of the series we’ll show you how to create a series</p>
+
+<!--more-->
+
+<p>As a first step we need to add series as a taxonomy. We can do this by editing the <code class="language-plaintext highlighter-rouge">config.toml</code>.<br />
+Note: We always need to define the existing taxonomies as well.</p>
+
+<div class="language-toml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">[taxonomies]</span>
+    <span class="py">category</span> <span class="p">=</span> <span class="s">"categories"</span>
+    <span class="py">series</span> <span class="p">=</span> <span class="s">"series"</span>
+    <span class="py">tag</span> <span class="p">=</span> <span class="s">"tags"</span>
+</code></pre></div></div>
+
+<p>Now we have the series enabled, the next thing we need to do is add the series name in the FrontMatter.
+For our example we’ll use this post and the next part.</p>
+
+<p>As you can see we’ve set the series to <code class="language-plaintext highlighter-rouge">series-setup</code>. We also do the same in the next parts of the series.<br />
+This end results should be a Front Matter that looks similar to this:</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">Hugo Authors</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Series Part </span><span class="m">1</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2021-08-14</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s">A brief guide to how to setup series part </span><span class="m">1</span>
+<span class="na">series</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">series-setup</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>Each individual post will now also show the other posts in the series under the <code class="language-plaintext highlighter-rouge">Posts in this Series</code> heading.</p>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/nikshchelkov">nikshchelkov</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>

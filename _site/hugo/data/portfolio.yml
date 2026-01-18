@@ -1,0 +1,36 @@
+portfolioitems:
+  - title: Power BI
+    portfolioitem:
+      - name: Executive Dashboard
+        image: '/images/portfolio/powerbi.jpg'
+        link: '/projects/powerbi-executive-dashboard/'
+        description: 'Redacted walkthrough. Focus on semantic model, DAX, performance, UX.'
+        tags:
+          - Power BI
+          - DAX
+          - Data Modeling
+        status: 'Finished'
+
+  - title: Machine Learning
+    portfolioitem:
+      - name: Propensity Model
+        image: '/images/portfolio/ml.jpg'
+        link: '/projects/ml-propensity-model/'
+        description: 'Public replica on synthetic or open data, with evaluation and model card.'
+        tags:
+          - Python
+          - Scikit-learn
+          - Evaluation
+        status: 'Finished'
+
+  - title: AI Agents
+    portfolioitem:
+      - name: RAG Assistant Prototype
+        image: '/images/portfolio/agent.jpg'
+        link: '/projects/ai-agent-rag-prototype/'
+        description: 'Public demo with retrieval, guardrails, logging, and eval mindset.'
+        tags:
+          - RAG
+          - Tool calling
+          - Guardrails
+        status: 'Finished'

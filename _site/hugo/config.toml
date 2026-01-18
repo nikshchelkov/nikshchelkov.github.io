@@ -1,0 +1,48 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Nikolai Shchelkov"
+theme = "anatole"
+
+[params]
+title = "Nikolai Shchelkov"
+author = "Nikolai Shchelkov"
+description = """
+Data Analytics, BI, Machine Learning, AI agents
+Privacy-first demos only
+"""
+profilePicture = "images/profile.jpg"
+displayMode = "auto"
+favicon = "favicons/"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/nikolai-s-41084119b/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "Email"
+url = "mailto:nik91sh@gmail.com"
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Projects"
+  identifier = "portfolio"
+  weight = 200
+  url = "/portfolio/"
+
+  [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 300
+  url = "/about/"
+
+[caches]
+  [caches.images]
+  dir = ":cacheDir/images"
