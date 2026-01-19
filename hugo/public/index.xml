@@ -14,10 +14,109 @@
       <guid>http://localhost:1313/about/</guid>
       
         <description>&lt;p&gt;I focus on analytics engineering, stakeholder-ready BI, ML pipelines, and pragmatic AI agent prototypes designed for constrained environments.&lt;/p&gt;
-&lt;p&gt;Core strengths&lt;/p&gt;
-&lt;p&gt;- Power BI semantic modeling and DAX&lt;/p&gt;
-&lt;p&gt;- ML pipeline design, evaluation, interpretability&lt;/p&gt;
-&lt;p&gt;- RAG and tool-calling prototypes with logging and guardrails&lt;/p&gt;</description>
+&lt;!-- Swiper styles --&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css&#34;/&gt;
+&lt;style&gt;
+/* About gallery - swipe + autoplay only (no arrows) */
+.about-gallery{
+  margin: 1.25rem 0 1.25rem 0;
+  border: 1px solid rgba(127,127,127,0.22);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.about-gallery .swiper{
+  width: 100%;
+  height: 460px;
+  position: relative;
+}
+@media (max-width: 900px){
+  .about-gallery .swiper { height: 340px; }
+}
+
+.about-gallery .swiper-slide{
+  background: rgba(127,127,127,0.06);
+}
+
+/* Keep proportions and prevent any theme transforms */
+.about-gallery img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+  transform: none !important;
+}
+
+/* Prevent theme click/zoom behaviors inside the gallery */
+.about-gallery a,
+.about-gallery img{
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Pagination dots */
+.about-gallery .swiper-pagination-bullet{
+  background: rgba(255,255,255,0.85);
+  opacity: 0.75;
+}
+.about-gallery .swiper-pagination-bullet-active{
+  opacity: 1;
+}
+
+/* Caption */
+.about-gallery .caption{
+  padding: 0.75rem 1rem;
+  border-top: 1px solid rgba(127,127,127,0.18);
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+&lt;/style&gt;
+&lt;div class=&#34;about-gallery&#34;&gt;
+  &lt;div class=&#34;swiper&#34;&gt;
+    &lt;div class=&#34;swiper-wrapper&#34;&gt;
+      &lt;div class=&#34;swiper-slide&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/about/01.jpg&#34; alt=&#34;About photo 1&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;swiper-slide&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/about/02.jpg&#34; alt=&#34;About photo 2&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;swiper-slide&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/about/03.jpg&#34; alt=&#34;About photo 3&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;swiper-slide&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/about/04.jpg&#34; alt=&#34;About photo 4&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;swiper-pagination&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;caption&#34;&gt;Selected moments (swipe to browse).&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Swiper script --&gt;
+&lt;script src=&#34;https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+  new Swiper(&#39;.about-gallery .swiper&#39;, {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 0,
+
+    autoplay: { delay: 9000, disableOnInteraction: false },
+    speed: 650,
+
+    pagination: { el: &#39;.about-gallery .swiper-pagination&#39;, clickable: true },
+    keyboard: { enabled: true }
+  });
+&lt;/script&gt;
+&lt;h2 id=&#34;core-strengths&#34;&gt;Core strengths&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Power BI semantic modeling and DAX&lt;/li&gt;
+&lt;li&gt;ML pipeline design, evaluation, interpretability&lt;/li&gt;
+&lt;li&gt;RAG and tool-calling prototypes with logging and guardrails&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/contact/</guid>
+      
+        <description>&lt;p&gt;Feel free to message me using the form below.&lt;/p&gt;</description>
       
     </item>
     
@@ -46,6 +145,37 @@
 &lt;p&gt;- Public replica: (GitHub link)&lt;/p&gt;
 &lt;p&gt;Outcomes&lt;/p&gt;
 &lt;p&gt;- Use percentages or qualitative impact, no confidential numbers&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/resume/</guid>
+      
+        <description>&lt;p&gt;Download&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/files/Nikolai_Shchelkov_Resume.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Summary&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Analytics and BI professional specializing in Power BI, ML, and AI agents&lt;/li&gt;
+&lt;li&gt;Experience building decision support products in constrained environments (privacy, governance)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Core skills&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Power BI semantic modeling, DAX, Power Query&lt;/li&gt;
+&lt;li&gt;ML pipelines, evaluation, interpretability&lt;/li&gt;
+&lt;li&gt;RAG and tool-calling prototypes, logging, guardrails&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Selected highlights&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;1 bullet with measurable impact, no sensitive details&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;1 bullet&amp;gt;&lt;/li&gt;
+&lt;li&gt;&amp;lt;1 bullet&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
       
     </item>
     

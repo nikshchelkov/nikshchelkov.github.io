@@ -2,8 +2,15 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "anatole"
+
 [params]
+title = "I'm Nikolai Shchelkov"
+author = "Nikolai Shchelkov"
+description = "Call me Nik"
 profilePicture = "images/profile.jpg"
+contactFormAction = "https://formspree.io/f/mbddorql"
+favicon = "favicons/"
+
 [menu]
   [[menu.main]]
   name = "Home"
@@ -12,13 +19,44 @@ profilePicture = "images/profile.jpg"
   url = "/"
 
   [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 200
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Resume"
+  weight = 300
+  url = "/resume/"
+
+  [[menu.main]]
   name = "Portfolio"
   identifier = "portfolio"
-  weight = 200
+  weight = 400
   url = "/portfolio/"
 
   [[menu.main]]
-  name = "About"
-  identifier = "about"
-  weight = 300
-  url = "/about/"
+  name = "Contact"
+  identifier = "contact"
+  weight = 500
+  url = "/contact/"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/nikolai-s-41084119b/"
+
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "Instagram"
+url = "https://instagram.com/nik91sh"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "Email"
+url = "mailto:nik91sh@gmail.com"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
