@@ -2,3 +2,23 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "anatole"
+[params]
+profilePicture = "images/profile.jpg"
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Portfolio"
+  identifier = "portfolio"
+  weight = 200
+  url = "/portfolio/"
+
+  [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 300
+  url = "/about/"
