@@ -1,12 +1,13 @@
 portfolioitems:
-  - title: Projects
+  - title: Portfolio
     portfolioitem:
-      - name: PANYNJ Traffic Dashboard
+      - name: The Port Authority of New York and New Jersey Traffic Dashboard
         image: '/images/portfolio/panynj.jpg'
         link: '/projects/panynj-traffic-dashboard/'
-        description: 'Power BI dashboard analyzing monthly traffic volumes and E-ZPass usage across Port Authority bridges and tunnels.'
+        description: 'Power BI dashboard analyzing monthly traffic volumes and E-ZPass usage across Port Authority bridges and tunnels'
         tags:
+          - Public Sector
+          - Transportation
           - Power BI
-          - Transportation Analytics
           - Data Modeling
         status: 'Finished'

@@ -1,0 +1,51 @@
+Что нужно добавить для каждого нового сертификата
+1. PDF сертификата
+
+Положи PDF сюда:
+
+hugo/static/files/certificates/
+
+Пример:
+
+hugo/static/files/certificates/02-google-project-management.pdf
+2. Миниатюру сертификата
+
+Сделай JPG или PNG превью первой страницы сертификата и положи сюда:
+
+hugo/static/images/certificates/thumbs/
+
+Пример:
+
+hugo/static/images/certificates/thumbs/02-google-project-management.jpg
+3. Логотип организации
+
+Если логотип issuer уже есть, ничего делать не надо.
+Если его еще нет, положи его сюда:
+
+hugo/static/images/issuers/
+
+Пример:
+
+hugo/static/images/issuers/google.png
+4. Markdown-файл сертификата
+
+Создай новый файл в:
+
+hugo/content/certificates/
+
+Пример:
+
+hugo/content/certificates/02-google-project-management.md
+
+И вставь туда такой шаблон:
+
+---
+title: "Google Project Management Professional Certificate"
+date: 2024-06-15
+draft: false
+issuer: "Google via Coursera"
+issuerLogo: "/images/issuers/google.png"
+thumbnail: "/images/certificates/thumbs/02-google-project-management.jpg"
+pdf: "/files/certificates/02-google-project-management.pdf"
+validateUrl: "https://coursera.org/verify/XXXXXXXX"
+---

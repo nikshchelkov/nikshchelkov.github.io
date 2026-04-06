@@ -1,111 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Nikolai Shchelkov</title>
+    <title>Hi and welcome! on Nikolai Shchelkov</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Nikolai Shchelkov</description>
+    <description>Recent content in Hi and welcome! on Nikolai Shchelkov</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>PANYNJ Traffic Dashboard</title>
+      <link>http://localhost:1313/projects/panynj-traffic-dashboard/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:1313/projects/panynj-traffic-dashboard/</guid>
       
-        <description>&lt;p&gt;I focus on analytics engineering, stakeholder-ready BI, ML pipelines, and pragmatic AI agent prototypes designed for constrained environments.&lt;/p&gt;
-&lt;!-- Swiper styles --&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css&#34;/&gt;
-&lt;style&gt;
-/* About gallery - swipe + autoplay only (no arrows) */
-.about-gallery{
-  margin: 1.25rem 0 1.25rem 0;
-  border: 1px solid rgba(127,127,127,0.22);
-  border-radius: 18px;
-  overflow: hidden;
-}
-
-.about-gallery .swiper{
-  width: 100%;
-  height: 460px;
-  position: relative;
-}
-@media (max-width: 900px){
-  .about-gallery .swiper { height: 340px; }
-}
-
-.about-gallery .swiper-slide{
-  background: rgba(127,127,127,0.06);
-}
-
-/* Keep proportions and prevent any theme transforms */
-.about-gallery img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  max-width: 100%;
-  transform: none !important;
-}
-
-/* Prevent theme click/zoom behaviors inside the gallery */
-.about-gallery a,
-.about-gallery img{
-  pointer-events: none;
-  cursor: default;
-}
-
-/* Pagination dots */
-.about-gallery .swiper-pagination-bullet{
-  background: rgba(255,255,255,0.85);
-  opacity: 0.75;
-}
-.about-gallery .swiper-pagination-bullet-active{
-  opacity: 1;
-}
-
-/* Caption */
-.about-gallery .caption{
-  padding: 0.75rem 1rem;
-  border-top: 1px solid rgba(127,127,127,0.18);
-  font-size: 0.95rem;
-  opacity: 0.9;
-}
-&lt;/style&gt;
-&lt;div class=&#34;about-gallery&#34;&gt;
-  &lt;div class=&#34;swiper&#34;&gt;
-    &lt;div class=&#34;swiper-wrapper&#34;&gt;
-      &lt;div class=&#34;swiper-slide&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/about/01.jpg&#34; alt=&#34;About photo 1&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;swiper-slide&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/about/02.jpg&#34; alt=&#34;About photo 2&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;swiper-slide&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/about/03.jpg&#34; alt=&#34;About photo 3&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;swiper-slide&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/about/04.jpg&#34; alt=&#34;About photo 4&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;swiper-pagination&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+        <description>&lt;p&gt;This project presents a Power BI dashboard built on public Port Authority traffic data.&lt;/p&gt;
+&lt;a href=&#34;http://localhost:1313/files/panynj/PANYNJ-Traffic-Dashboard.pbix&#34; download class=&#34;download-btn&#34;&gt;
+  Download .pbix file
+&lt;/a&gt;
+&lt;div class=&#34;pbix-version&#34;&gt;Created in Power BI Desktop 2.150.1704.0 64-bit (January 2026)&lt;/div&gt;
+&lt;div class=&#34;portfolio-carousel&#34; id=&#34;panynj-carousel&#34;&gt;
+  &lt;div class=&#34;carousel-track&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/projects/panynj/01.jpg&#34; alt=&#34;PANYNJ dashboard screenshot 1&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/projects/panynj/02.jpg&#34; alt=&#34;PANYNJ dashboard screenshot 2&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/projects/panynj/03.jpg&#34; alt=&#34;PANYNJ dashboard screenshot 3&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/projects/panynj/04.jpg&#34; alt=&#34;PANYNJ dashboard screenshot 4&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/images/projects/panynj/05.jpg&#34; alt=&#34;PANYNJ dashboard screenshot 5&#34;&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;caption&#34;&gt;Selected moments (swipe to browse).&lt;/div&gt;
+  &lt;div class=&#34;carousel-nav&#34; aria-hidden=&#34;false&#34;&gt;
+    &lt;button type=&#34;button&#34; class=&#34;carousel-btn prev&#34; aria-label=&#34;Previous image&#34;&gt;‹&lt;/button&gt;
+    &lt;button type=&#34;button&#34; class=&#34;carousel-btn next&#34; aria-label=&#34;Next image&#34;&gt;›&lt;/button&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;!-- Swiper script --&gt;
-&lt;script src=&#34;https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js&#34;&gt;&lt;/script&gt;
-&lt;script&gt;
-  new Swiper(&#39;.about-gallery .swiper&#39;, {
-    loop: true,
-    slidesPerView: 1,
-    spaceBetween: 0,
-
-    autoplay: { delay: 9000, disableOnInteraction: false },
-    speed: 650,
-
-    pagination: { el: &#39;.about-gallery .swiper-pagination&#39;, clickable: true },
-    keyboard: { enabled: true }
-  });
-&lt;/script&gt;
-&lt;h2 id=&#34;core-strengths&#34;&gt;Core strengths&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Power BI semantic modeling and DAX&lt;/li&gt;
-&lt;li&gt;ML pipeline design, evaluation, interpretability&lt;/li&gt;
-&lt;li&gt;RAG and tool-calling prototypes with logging and guardrails&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;h2 id=&#34;-overview&#34;&gt;📌 Overview&lt;/h2&gt;
+&lt;p&gt;This Power BI dashboard analyzes monthly traffic volume and E-ZPass usage across six major Port Authority crossings between New York and New Jersey. It consolidates public monthly reports into a single analytical model and makes it easier to explore long-term trends, facility-level differences, and changes in transponder adoption over time.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Microsoft Power BI Data Analyst</title>
+      <link>http://localhost:1313/certificates/02-microsoft-power-bi/</link>
+      <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/certificates/02-microsoft-power-bi/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Google Data Analytics</title>
+      <link>http://localhost:1313/certificates/01-google-data-analytics/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/certificates/01-google-data-analytics/</guid>
+      
+        <description></description>
       
     </item>
     
@@ -121,60 +71,34 @@
     </item>
     
     <item>
-      <title>Power BI: Executive Dashboard</title>
-      <link>http://localhost:1313/projects/powerbi-executive-dashboard/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/projects/powerbi-executive-dashboard/</guid>
-      
-        <description>&lt;p&gt;Summary&lt;/p&gt;
-&lt;p&gt;- Redacted demo, privacy-first&lt;/p&gt;
-&lt;p&gt;Problem&lt;/p&gt;
-&lt;p&gt;- What decision this enabled&lt;/p&gt;
-&lt;p&gt;Constraints&lt;/p&gt;
-&lt;p&gt;- Sensitive data&lt;/p&gt;
-&lt;p&gt;- Access controls&lt;/p&gt;
-&lt;p&gt;- Performance and refresh constraints&lt;/p&gt;
-&lt;p&gt;Approach&lt;/p&gt;
-&lt;p&gt;- Data model&lt;/p&gt;
-&lt;p&gt;- Key measures and performance choices&lt;/p&gt;
-&lt;p&gt;- UX choices&lt;/p&gt;
-&lt;p&gt;Demo&lt;/p&gt;
-&lt;p&gt;- Screens: (redacted)&lt;/p&gt;
-&lt;p&gt;- Video: (unlisted link)&lt;/p&gt;
-&lt;p&gt;- Public replica: (GitHub link)&lt;/p&gt;
-&lt;p&gt;Outcomes&lt;/p&gt;
-&lt;p&gt;- Use percentages or qualitative impact, no confidential numbers&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>Resume</title>
       <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/resume/</guid>
       
-        <description>&lt;p&gt;Download&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/files/Nikolai_Shchelkov_Resume.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Summary&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Data Analytics and BI professional specializing in Power BI, ML, and AI agents&lt;/li&gt;
-&lt;li&gt;Experience building decision support products in constrained environments (privacy, governance)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Core skills&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Power BI semantic modeling, DAX, Power Query&lt;/li&gt;
-&lt;li&gt;ML pipelines, evaluation, interpretability&lt;/li&gt;
-&lt;li&gt;RAG and tool-calling prototypes, logging, guardrails&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Selected highlights&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;lt;1 bullet with measurable impact, no sensitive details&amp;gt;&lt;/li&gt;
-&lt;li&gt;&amp;lt;1 bullet&amp;gt;&lt;/li&gt;
-&lt;li&gt;&amp;lt;1 bullet&amp;gt;&lt;/li&gt;
+        <description>&lt;div class=&#34;resume-actions&#34;&gt;
+  &lt;a href=&#34;http://localhost:1313/files/Nikolai_Shchelkov_Resume.pdf&#34; download class=&#34;download-btn&#34;&gt;
+    Download Resume PDF
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;resume-preview-wrap&#34;&gt;
+  &lt;iframe
+    src=&#34;http://localhost:1313/files/Nikolai_Shchelkov_Resume.pdf&#34;
+    class=&#34;resume-preview&#34;
+    title=&#34;Nikolai Shchelkov Resume PDF&#34;
+  &gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;profile-of-achievements-in-key-figures&#34;&gt;Profile of Achievements in Key Figures&lt;/h2&gt;
+&lt;ul class=&#34;resume-highlights&#34;&gt;
+  &lt;li&gt;🎓 &lt;strong&gt;3 advanced degrees with honors&lt;/strong&gt; — two STEM degrees and one MBA, with one earned in Russia and two in the United States; currently pursuing a PhD at Florida Atlantic University and inducted into the Phi Kappa Phi Honor Society through the Eastern New Mexico University chapter.&lt;/li&gt;
+  &lt;li&gt;📊 &lt;strong&gt;14 years of contributions&lt;/strong&gt; in data analytics, emerging technologies, and digital skills gap reduction.&lt;/li&gt;
+  &lt;li&gt;🗽 &lt;strong&gt;3 years of meaningful contributions in the U.S.&lt;/strong&gt; across California, New York, and New Mexico, recognized through academic awards and strong support from respected local experts.&lt;/li&gt;
+  &lt;li&gt;🏭 &lt;strong&gt;Impact across 4 industries&lt;/strong&gt; — logistics and transportation, oil and gas, timber, and nonprofit — with models and dashboards used daily by hundreds of peers and stakeholders.&lt;/li&gt;
+  &lt;li&gt;🛠️ &lt;strong&gt;6 core analytical tools and dozens of supporting frameworks&lt;/strong&gt; implemented, including a candidate nationwide standard for business process notation, portfolio optimization models, customer insight quantification techniques, startup evaluation templates, dynamic reporting systems, and a comprehensive AI implementation framework.&lt;/li&gt;
+  &lt;li&gt;🏆 &lt;strong&gt;2 major academic distinctions&lt;/strong&gt; — one top-level academic award in Russia and one significant award in the United States, both earned in highly competitive environments.&lt;/li&gt;
+  &lt;li&gt;📝 &lt;strong&gt;30+ innovative business plans and 250+ grant applications&lt;/strong&gt; evaluated as an invited expert for national foundations.&lt;/li&gt;
+  &lt;li&gt;📚 &lt;strong&gt;7,000+ unique views&lt;/strong&gt; of published articles on a leading Russian-language blog focused on Power BI and data analytics.&lt;/li&gt;
 &lt;/ul&gt;</description>
       
     </item>

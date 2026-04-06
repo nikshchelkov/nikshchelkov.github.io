@@ -1,0 +1,45 @@
+{{ define "main" }}
+  <div class="post">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}
+      <div class="post-content">{{ . }}</div>
+    {{ end }}
+
+    <div class="certificates-grid">
+      {{ range sort .Pages ".File.BaseFileName" "asc" }}
+        <article class="certificate-card">
+          <a href="{{ .Params.pdf }}" target="_blank" class="certificate-thumb-link">
+            <img
+              src="{{ .Params.thumbnail }}"
+              alt="{{ .Title }}"
+              class="certificate-thumb"
+            >
+          </a>
+
+          <div class="certificate-body">
+            <h3 class="certificate-title">{{ .Title }}</h3>
+
+            <div class="certificate-meta">
+              <div class="certificate-date">{{ .Date.Format "2006" }}</div>
+
+              <div class="certificate-issuer">
+                <img
+                  src="{{ .Params.issuerLogo }}"
+                  alt="{{ .Params.issuer }}"
+                  class="certificate-issuer-logo"
+                >
+                <span>{{ .Params.issuer }}</span>
+              </div>
+            </div>
+
+            <div class="certificate-actions">
+              <a href="{{ .Params.validateUrl }}" target="_blank" class="certificate-btn">
+                Validate
+              </a>
+            </div>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
