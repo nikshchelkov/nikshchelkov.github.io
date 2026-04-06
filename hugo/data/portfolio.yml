@@ -1,36 +1,12 @@
 portfolioitems:
-  - title: Power BI
+  - title: Projects
     portfolioitem:
-      - name: Executive Dashboard
-        image: '/images/portfolio/powerbi.jpg'
-        link: '/projects/powerbi-executive-dashboard/'
-        description: 'Redacted walkthrough. Focus on semantic model, DAX, performance, UX.'
+      - name: PANYNJ Traffic Dashboard
+        image: '/images/portfolio/panynj.jpg'
+        link: '/projects/panynj-traffic-dashboard/'
+        description: 'Power BI dashboard analyzing monthly traffic volumes and E-ZPass usage across Port Authority bridges and tunnels.'
         tags:
           - Power BI
-          - DAX
+          - Transportation Analytics
           - Data Modeling
-        status: 'Finished'
-
-  - title: Machine Learning
-    portfolioitem:
-      - name: Propensity Model
-        image: '/images/portfolio/ml.jpg'
-        link: '/projects/ml-propensity-model/'
-        description: 'Public replica on synthetic or open data, with evaluation and model card.'
-        tags:
-          - Python
-          - Scikit-learn
-          - Evaluation
-        status: 'Finished'
-
-  - title: AI Agents
-    portfolioitem:
-      - name: RAG Assistant Prototype
-        image: '/images/portfolio/agent.jpg'
-        link: '/projects/ai-agent-rag-prototype/'
-        description: 'Public demo with retrieval, guardrails, logging, and eval mindset.'
-        tags:
-          - RAG
-          - Tool calling
-          - Guardrails
         status: 'Finished'
