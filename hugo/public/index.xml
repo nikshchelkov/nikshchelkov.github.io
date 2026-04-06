@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hi and welcome! on Nikolai Shchelkov</title>
+    <title>About on Nikolai Shchelkov</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Hi and welcome! on Nikolai Shchelkov</description>
+    <description>Recent content in About on Nikolai Shchelkov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>PANYNJ Traffic Dashboard</title>
+      <title>The Port Authority of New York and New Jersey Traffic Dashboard</title>
       <link>http://localhost:1313/projects/panynj-traffic-dashboard/</link>
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
       
@@ -38,6 +38,50 @@
     </item>
     
     <item>
+      <title>Microsoft Power Platform Fundamentals PL-900 Exam Prep</title>
+      <link>http://localhost:1313/certificates/08-microsoft-power-platform/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/certificates/08-microsoft-power-platform/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Unlock Powerful Automation and Analysis with Power Platform</title>
+      <link>http://localhost:1313/certificates/09-microsoft-powerful-automation/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/certificates/09-microsoft-powerful-automation/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Microsoft SQL Server</title>
+      <link>http://localhost:1313/certificates/04-microsoft-sql-server/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/certificates/04-microsoft-sql-server/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Building AI Agents and Agentic Workflows</title>
+      <link>http://localhost:1313/certificates/03-ai-agents/</link>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/certificates/03-ai-agents/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
       <title>Microsoft Power BI Data Analyst</title>
       <link>http://localhost:1313/certificates/02-microsoft-power-bi/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
@@ -54,6 +98,39 @@
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/certificates/01-google-data-analytics/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Databases for Data Scientists</title>
+      <link>http://localhost:1313/certificates/05-databases/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/certificates/05-databases/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Project Management Principles and Practices</title>
+      <link>http://localhost:1313/certificates/07-project-management/</link>
+      <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/certificates/07-project-management/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Strategic Management and Innovation</title>
+      <link>http://localhost:1313/certificates/06-strategic-management/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/certificates/06-strategic-management/</guid>
       
         <description></description>
       

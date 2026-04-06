@@ -1,8 +1,12 @@
 ---
-title: "Hi and welcome!"
+title: "About"
 ---
 
+# Hi and welcome!
+
 📊 Please call me Nik. I build decision support products across dashboards, machine learning models, and lightweight AI agents. My work focuses on analytics engineering, stakeholder-ready business intelligence, ML pipelines, and practical AI solutions designed for constrained environments.
+
+🪪 Permanent resident: EB-1A (Extraordinary Ability). U.S. work authorized. No visa sponsorship required.
 
 <div class="about-gallery" id="about-gallery">
   <div class="about-gallery-track">
@@ -23,4 +27,4 @@ title: "Hi and welcome!"
 
 🥾 Outside of work, I enjoy hiking, especially in California, following soccer, and composing music, mainly short pieces for string quartet. One of my favorite memories is attending the 2018 FIFA World Cup Final in Moscow.
 
-📊 I am also very close to my godchildren, who mean a great deal to me.
+👨‍👧‍👦 I am also very close to my godchildren, who mean a great deal to me.

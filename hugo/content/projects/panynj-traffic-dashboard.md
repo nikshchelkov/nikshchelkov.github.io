@@ -1,5 +1,5 @@
 ---
-title: "PANYNJ Traffic Dashboard"
+title: "The Port Authority of New York and New Jersey Traffic Dashboard"
 date: 2026-04-06
 draft: false
 ---
