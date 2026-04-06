@@ -1,45 +1,19 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Nikolai Shchelkov"
 theme = "anatole"
 
 [params]
-title = "I'm Nikolai Shchelkov"
+title = "Nikolai Shchelkov"
 author = "Nikolai Shchelkov"
-description = "Call me Nik"
+description = """
+Data Analytics, Business Intelligence, Machine Learning
+Privacy-first demos only
+"""
 profilePicture = "images/profile.jpg"
-contactFormAction = "https://formspree.io/f/mbddorql"
+displayMode = "auto"
 favicon = "favicons/"
-
-[menu]
-  [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
-
-  [[menu.main]]
-  name = "About"
-  identifier = "about"
-  weight = 200
-  url = "/about/"
-
-  [[menu.main]]
-  name = "Resume"
-  weight = 300
-  url = "/resume/"
-
-  [[menu.main]]
-  name = "Portfolio"
-  identifier = "portfolio"
-  weight = 400
-  url = "/portfolio/"
-
-  [[menu.main]]
-  name = "Contact"
-  identifier = "contact"
-  weight = 500
-  url = "/contact/"
+contactFormAction = "https://formspree.io/f/mbddorql"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
@@ -56,7 +30,42 @@ icon = "fas fa-envelope"
 title = "Email"
 url = "mailto:nik91sh@gmail.com"
 
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 200
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/"
+
+  [[menu.main]]
+  name = "Portfolio"
+  identifier = "portfolio"
+  weight = 400
+  url = "/portfolio/"
+
+  [[menu.main]]
+  name = "Contact"
+  identifier = "contact"
+  weight = 500
+  url = "/contact/"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[caches]
+  [caches.images]
+  dir = ":cacheDir/images"
