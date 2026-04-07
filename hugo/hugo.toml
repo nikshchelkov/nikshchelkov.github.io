@@ -36,26 +36,26 @@ url = "mailto:nik91sh@gmail.com"
   [[menu.main]]
   name = "About"
   identifier = "about"
-  weight = 200
+  weight = 100
   url = "/"
 
   [[menu.main]]
   name = "Resume"
   identifier = "resume"
-  weight = 300
+  weight = 200
   url = "/resume/"
-
-  [[menu.main]]
-  name = "Certificates"
-  identifier = "certificates"
-  weight = 450
-  url = "/certificates/"
 
   [[menu.main]]
   name = "Portfolio"
   identifier = "portfolio"
-  weight = 400
+  weight = 300
   url = "/portfolio/"
+
+  [[menu.main]]
+  name = "Certificates"
+  identifier = "certificates"
+  weight = 400
+  url = "/certificates/"
 
   [[menu.main]]
   name = "Contact"
