@@ -2,7 +2,7 @@ portfolioitems:
   - title: Portfolio
     portfolioitem:
       - name: The Port Authority of New York and New Jersey Traffic Dashboard
-        image: '/images/portfolio/panynj.jpg'
+        image: '/images/portfolio/panynj.png'
         link: '/projects/panynj-traffic-dashboard/'
         description: 'Power BI dashboard analyzing monthly traffic volumes and E-ZPass usage across Port Authority bridges and tunnels'
         tags:
@@ -10,4 +10,15 @@ portfolioitems:
           - Transportation
           - Power BI
           - Data Modeling
+        status: 'Finished'
+
+      - name: Timber Logistics Stock-on-Hand Forecasting Dashboard
+        image: '/images/portfolio/stock-on-hand.png'
+        link: '/projects/stock-on-hand/'
+        description: 'Power BI dashboard for dynamic short-term stock forecasting across timber transportation phases with linear trend validation'
+        tags:
+          - Timber Industry
+          - Logistics
+          - Power BI
+          - Forecasting
         status: 'Finished'
