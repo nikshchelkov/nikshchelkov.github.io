@@ -5,7 +5,7 @@ title: "Resume"
 ## Why Hire Me?
 
 <ul class="resume-highlights">
-  <li>🎯 <strong>I deliver outcomes, not just models.</strong> My portfolio includes work in <strong>#BI reporting, #agenticAI, #ML modeling, #statistical modeling, #financial modeling, #customer journey mapping</strong>, and more — but what matters most is that each solution starts with strong business analysis: stakeholder conversations, process discovery, and careful study of existing systems. I do not default to rebuilding from scratch; I improve and extend what already works.</li>
+  <li>🎯 <strong>I deliver results, not just models.</strong> My portfolio includes work in <strong>#BI reporting, #agenticAI, #ML modeling, #statistical modeling, #financial modeling, #customer journey mapping</strong>, and more — but what matters most is that each solution starts with strong business analysis: stakeholder conversations, process discovery, and careful study of existing systems. I do not default to rebuilding from scratch; I improve and extend what already works.</li>
 
   <li>🤝 <strong>Reactive or proactive? Both.</strong> The voice of the customer is my top priority, but I also bring my own ideas based on prior experience and I am comfortable proposing and defending them. I work through dialogue, not one-way handoffs.</li>
 

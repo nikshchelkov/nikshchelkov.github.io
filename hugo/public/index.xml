@@ -247,7 +247,14 @@
       
       <guid>http://localhost:1313/resume/</guid>
       
-        <description>&lt;div class=&#34;resume-actions&#34;&gt;
+        <description>&lt;h2 id=&#34;why-hire-me&#34;&gt;Why Hire Me?&lt;/h2&gt;
+&lt;ul class=&#34;resume-highlights&#34;&gt;
+  &lt;li&gt;🎯 &lt;strong&gt;I deliver results, not just models.&lt;/strong&gt; My portfolio includes work in &lt;strong&gt;#BI reporting, #agenticAI, #ML modeling, #statistical modeling, #financial modeling, #customer journey mapping&lt;/strong&gt;, and more — but what matters most is that each solution starts with strong business analysis: stakeholder conversations, process discovery, and careful study of existing systems. I do not default to rebuilding from scratch; I improve and extend what already works.&lt;/li&gt;
+  &lt;li&gt;🤝 &lt;strong&gt;Reactive or proactive? Both.&lt;/strong&gt; The voice of the customer is my top priority, but I also bring my own ideas based on prior experience and I am comfortable proposing and defending them. I work through dialogue, not one-way handoffs.&lt;/li&gt;
+  &lt;li&gt;🔍 &lt;strong&gt;Transparency is key.&lt;/strong&gt; I follow an agile approach to development and consistently share interim results to refine requirements, reduce misunderstandings, and keep everyone on the same page throughout the process.&lt;/li&gt;
+  &lt;li&gt;👥 &lt;strong&gt;My models work because they are built for people.&lt;/strong&gt; My endeavor in the U.S. — the one that led to my permanent residency — has been to increase adoption of advanced technologies among non-technical professionals. I do not just build solutions that function; I train users, learn from them, and help organizations create lasting value by strengthening digital skills across teams.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;resume-actions&#34;&gt;
   &lt;a href=&#34;http://localhost:1313/files/Nikolai_Shchelkov_Resume.pdf&#34; download class=&#34;download-btn&#34;&gt;
     Download Resume PDF
   &lt;/a&gt;
