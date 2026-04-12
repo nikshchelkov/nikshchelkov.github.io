@@ -14,7 +14,7 @@ displayMode = "auto"
 favicon = "favicons/"
 contactFormAction = "https://formspree.io/f/mbddorql"
 customCss = ["css/custom.css"]
-customJs = ["js/panynj-carousel.js", "js/stock-on-hand-carousel.js", "js/about-gallery.js"]
+customJs = ["js/panynj-carousel.js", "js/stock-on-hand-carousel.js", "js/startup-financial-model-carousel.js", "js/railway-project-portfolio-carousel.js", "js/about-gallery.js"]
 mainSections = []
 
 [[params.socialIcons]]

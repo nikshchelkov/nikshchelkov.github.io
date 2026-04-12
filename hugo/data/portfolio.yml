@@ -22,3 +22,26 @@ portfolioitems:
           - Power BI
           - Forecasting
         status: 'Finished'
+      
+      - name: Startup Financial Model and Scenario Analysis
+        image: '/images/portfolio/startup-financial-model.png'
+        link: '/projects/startup-financial-model/'
+        description: 'Reusable Excel financial model with revenue and expense forecasting, three-statement analysis, scenario planning, and investment metrics dashboard'
+        tags:
+          - Startup
+          - Financial Modelling
+          - Forecasting
+          - Scenario Analysis
+        status: 'Finished'
+
+      - name: Optimization Project Portfolio for a Railway Company
+        image: '/images/portfolio/railway-project-portfolio.png'
+        link: '/projects/railway-project-portfolio/'
+        description: 'Project portfolio management framework for a railway company built from customer journey mapping, idea validation, and Power BI dashboards'
+        tags:
+          - Railway
+          - Project Portfolio Management
+          - Customer Journey
+          - Power BI
+          - Atlassian Jira
+        status: 'Finished'
