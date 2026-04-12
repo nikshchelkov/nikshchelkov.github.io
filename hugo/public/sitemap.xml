@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:54094/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/projects/railway-project-portfolio/</loc>
+    <loc>http://localhost:1313/projects/railway-project-portfolio/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/projects/startup-financial-model/</loc>
+    <loc>http://localhost:1313/projects/startup-financial-model/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/projects/stock-on-hand/</loc>
+    <loc>http://localhost:1313/projects/stock-on-hand/</loc>
     <lastmod>2026-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/certificates/</loc>
+    <loc>http://localhost:1313/certificates/</loc>
     <lastmod>2026-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/projects/panynj-traffic-dashboard/</loc>
+    <loc>http://localhost:1313/projects/panynj-traffic-dashboard/</loc>
     <lastmod>2026-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/certificates/08-microsoft-power-platform/</loc>
+    <loc>http://localhost:1313/certificates/08-microsoft-power-platform/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/certificates/09-microsoft-powerful-automation/</loc>
+    <loc>http://localhost:1313/certificates/09-microsoft-powerful-automation/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/certificates/04-microsoft-sql-server/</loc>
+    <loc>http://localhost:1313/certificates/04-microsoft-sql-server/</loc>
     <lastmod>2026-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/certificates/03-ai-agents/</loc>
+    <loc>http://localhost:1313/certificates/03-ai-agents/</loc>
     <lastmod>2025-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/certificates/02-microsoft-power-bi/</loc>
+    <loc>http://localhost:1313/certificates/02-microsoft-power-bi/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/certificates/01-google-data-analytics/</loc>
+    <loc>http://localhost:1313/certificates/01-google-data-analytics/</loc>
     <lastmod>2024-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/certificates/05-databases/</loc>
+    <loc>http://localhost:1313/certificates/05-databases/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/certificates/07-project-management/</loc>
+    <loc>http://localhost:1313/certificates/07-project-management/</loc>
     <lastmod>2023-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/certificates/06-strategic-management/</loc>
+    <loc>http://localhost:1313/certificates/06-strategic-management/</loc>
     <lastmod>2019-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:54094/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:54094/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:54094/portfolio/</loc>
+    <loc>http://localhost:1313/portfolio/</loc>
   </url><url>
-    <loc>http://localhost:54094/resume/</loc>
+    <loc>http://localhost:1313/resume/</loc>
   </url><url>
-    <loc>http://localhost:54094/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
