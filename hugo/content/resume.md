@@ -2,6 +2,18 @@
 title: "Resume"
 ---
 
+## Why Hire Me?
+
+<ul class="resume-highlights">
+  <li>🎯 <strong>I deliver outcomes, not just models.</strong> My portfolio includes work in <strong>#BI reporting, #agenticAI, #ML modeling, #statistical modeling, #financial modeling, #customer journey mapping</strong>, and more — but what matters most is that each solution starts with strong business analysis: stakeholder conversations, process discovery, and careful study of existing systems. I do not default to rebuilding from scratch; I improve and extend what already works.</li>
+
+  <li>🤝 <strong>Reactive or proactive? Both.</strong> The voice of the customer is my top priority, but I also bring my own ideas based on prior experience and I am comfortable proposing and defending them. I work through dialogue, not one-way handoffs.</li>
+
+  <li>🔍 <strong>Transparency is key.</strong> I follow an agile approach to development and consistently share interim results to refine requirements, reduce misunderstandings, and keep everyone on the same page throughout the process.</li>
+
+  <li>👥 <strong>My models work because they are built for people.</strong> My endeavor in the U.S. — the one that led to my permanent residency — has been to increase adoption of advanced technologies among non-technical professionals. I do not just build solutions that function; I train users, learn from them, and help organizations create lasting value by strengthening digital skills across teams.</li>
+</ul>
+
 <div class="resume-actions">
   <a href="/files/Nikolai_Shchelkov_Resume.pdf" download class="download-btn">
     Download Resume PDF
