@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Power BI Data Analyst"
-date: 2024-05-23
+title: "Microsoft Certified: Power BI Data Analyst Associate"
+date: 2026-07-11
 draft: false
-issuer: "Microsoft via Coursera"
+issuer: "Microsoft"
 issuerLogo: "/images/issuers/microsoft.png"
 thumbnail: "/images/certificates/thumbs/02-microsoft-power-bi.jpg"
 pdf: "/files/certificates/02-microsoft-power-bi.pdf"
-validateUrl: "https://coursera.org/verify/professional-cert/9FRPWAXD8QMG"
+validateUrl: "https://learn.microsoft.com/api/credentials/share/en-us/NikolaiShchelkov-3582/7913435601E8FAF3?sharingId"
 ---
